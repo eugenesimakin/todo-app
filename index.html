@@ -1,13 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./public/styles/styles.css">
+
+  <title>Todo app</title>
+</head>
+
+<body>
+<header class="main-header">
+  <div class="todo-list">
+    <div class="head-container">
+      <h1 class="item text todo">TODO</h1>
+      <img class="item sun" src="./public/images/icon-sun.svg" alt="">
+    </div>
+
+    <div class="body-container">
+      <div class="new-todo">
+        <label>
+          <input type="checkbox" class="text inactive check">
+          <input type="text" class="text inactive add" placeholder="Add a new todo">
+        </label>
+      </div>
+
+      <div class="list">
+
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+
+<footer class="text inactive">
+  Drag and drop to reorder list
+</footer>
+
+</body>
 </html>

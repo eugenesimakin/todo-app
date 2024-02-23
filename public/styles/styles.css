@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+h1 {
+ font-size: 40px;
+}
+
+body {
+    background: #181824
+}
+
+.main-header {
+    min-width: 550px;
+    height: 250px;
+    margin-bottom: 70px;
+    padding-top: 30px;
+    background: #847462 no-repeat center url("../images/bg-desktop-dark.jpg");
+    background-size: cover;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 32%;
+}
+
+p {
+    padding: 23px;
+}
+
+.new-todo {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 32% 0 32%;
+    height: 60px;
+    background-color:  #25273C;
+    border-radius: 6px;
+}
+
+.add {
+    background-color:  #25273C;
+}
+
+.check {
+    margin: 23px 23px 23px 20px;
+}
+
+.sun {
+    width: 30px;
+    height: 30px;
+
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url(../fonts/JosefinSans.ttf);
+}
+
+.text {
+    font-family: "Josefin Sans";
+    color:  white;
+}
+
+.todo {
+    letter-spacing: 18px;
+}
+
+.inactive {
+    color:  #4B4C60;
+}
+
+footer {
+    text-align: center;
+}
